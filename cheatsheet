@@ -4,3 +4,5 @@ https://github.com/r0075h3ll/Oralyzer #Tool for automated open redirect testing
 
 python3 oralyzer.py -u https://singleurlhere
 python3 oralyzer.py -l subdomains.txt 
+python3 oralyzer.py -u https://site/redirect?url= | grep "[+]" # To get all the positive results
+
