@@ -14,7 +14,9 @@ You can search for URL redirects using google dorks like:
 
 site:target.com inurl:redirect
 
+https://github.com/mr-medi/HostPanic # For host header injection attacks
 
+python3 main.py -u https://target.com -v
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
