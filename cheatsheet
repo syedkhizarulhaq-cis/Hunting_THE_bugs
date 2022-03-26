@@ -10,6 +10,10 @@ python3 oralyzer.py -u https://site/redirect?url= | grep "[+]" # To get all the 
 
 https://portswigger.net/support/using-burp-to-test-for-open-redirections #How to use Burp suite to hunt for open redirects
 
+You can search for URL redirects using google dorks like:
+
+site:target.com inurl:redirect
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
